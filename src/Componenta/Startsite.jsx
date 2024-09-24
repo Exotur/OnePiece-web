@@ -22,6 +22,11 @@ const StartPage = () => {
         <button >All Devil Fruits</button>
       </Link>
 
+      <Link to="/movies">
+        <button >Movies</button>
+      </Link>
+
+
       
     </div>
   );

@@ -7,6 +7,9 @@ import EpisodesList from './Componenta/EpisodesList';
 import EpisodeDetail from './Componenta/EpisodeDetail';
 import DevilFruits from './Componenta/DevilFruits';
 import FruitDetail from './Componenta/DevilFruitDetails';
+import Movies from './Componenta/Movies';
+import MovieDetail from './Componenta/MovieDetails';
+
 function App() {
   return (
     <Router>
@@ -19,6 +22,8 @@ function App() {
         <Route path="/episodes/:id" element={<EpisodeDetail />} />
         <Route path="/fruits" element={<DevilFruits />} />
         <Route path="/fruits/:id" element={<FruitDetail />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/movies/:id" element={<MovieDetail />} />
       </Routes>
     </Router>
   );
